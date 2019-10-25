@@ -1,4 +1,5 @@
 var expect = require('chai').expect;
+// We are using webdriver instead of webdriverio for now
 var wd = require('wd'),
   driver = wd.promiseChainRemote({
     host: 'localhost',
