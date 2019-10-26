@@ -12,5 +12,10 @@
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
     "wd": "^1.11.0"
-  }
+  },
+  "bundledDependencies": [
+    "chai",
+    "mocha",
+    "wd"
+  ]
 }
